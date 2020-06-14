@@ -3,3 +3,5 @@ Testing the implementation of the BML https://dl.acm.org/doi/pdf/10.14778/323175
 The results of the tests in the root folder are already saved in the "results" folder, but if you want to run the tests by yourself:
 -From root: python [name of the test]
 
+cProfile and profile are required to run the tests.
+
