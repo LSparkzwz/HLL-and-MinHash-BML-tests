@@ -1,0 +1,50 @@
+Python Intersection:
+Size of SX: 5
+Size of SY: 143
+Size of Intersection: 2
+True inclusion coefficient: 0.4
+Filename: small_sets.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    13     51.1 MiB     51.1 MiB   @profile
+    14                             def mem_true_inclusion_coeff(SX,SY):
+    15     51.1 MiB      0.0 MiB       true_inclusion_coeff(SX, SY)
+
+Execution time: 13 function calls in 0.000 seconds
+
+
+HLL BML
+Number of buckets is  256
+Estimated nx is  5.049473369031315
+Estimated ny is  154.50496559878607
+P is:  0.99609375
+Inclusion Coefficient:  0.9999999999997727
+Filename: small_sets.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    17     51.1 MiB     51.1 MiB   @profile
+    18                             def mem_hll_bml(SX,SY):
+    19     51.3 MiB      0.2 MiB       hll_bml(SX,SY)
+
+Execution time: 36076 function calls (36034 primitive calls) in 0.019 seconds
+
+MinHash BML
+Number of permutations is  256
+Estimated nx is  5.075586745543148
+Estimated ny is  142.37002863862514
+P is:  0.96484375
+Inclusion Coefficient:  1.8189894035458565e-12
+Filename: small_sets.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    21     51.3 MiB     51.3 MiB   @profile
+    22                             def mem_minHash_bml(SX,SY):
+    23     51.3 MiB      0.0 MiB       minHash_bml(SX, SY)
+
+Execution time: 34157 function calls (34114 primitive calls) in 0.021 seconds
+
+
+
