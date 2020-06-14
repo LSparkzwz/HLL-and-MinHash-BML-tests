@@ -1,0 +1,50 @@
+Python Intersection:
+Size of SX: 110834
+Size of SY: 152817
+Size of Intersection: 27191
+True inclusion coefficient: 0.24533085515275097
+Filename: 150k_intersection.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    15    130.7 MiB    130.7 MiB   @profile
+    16                             def mem_true_inclusion_coeff(SX,SY):
+    17    130.7 MiB      0.0 MiB       true_inclusion_coeff(SX, SY)
+
+Execution time: 13 function calls in 0.006 seconds
+
+HLL BML
+Number of buckets is  256
+Estimated nx is  108722.87785229378
+Estimated ny is  139907.3604362771
+P is:  0.73828125
+Inclusion Coefficient:  0.7270507812500001
+Filename: 150k_intersection.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    19    130.7 MiB    130.7 MiB   @profile
+    20                             def mem_hll_bml(SX,SY):
+    21    130.7 MiB      0.1 MiB       hll_bml(SX,SY)
+
+Execution time: 2645399 function calls (2645389 primitive calls) in 1.753 seconds
+
+MinHash BML
+Number of permutations is  256
+Estimated nx is  107394.8188568654
+Estimated ny is  144016.8131607705
+P is:  0.671875
+Inclusion Coefficient:  0.11669921874999999
+Filename: 150k_intersection.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    23    130.7 MiB    130.7 MiB   @profile
+    24                             def mem_minHash_bml(SX,SY):
+    25    130.8 MiB      0.1 MiB       minHash_bml(SX, SY)
+
+Execution time: 1591889 function calls (1591875 primitive calls) in 4.434 seconds
+
+
+
+
